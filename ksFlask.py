@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def web():
-   return "kyeongseo's flask web page"
+   return "Acornsoft's flask web page"
 
 @app.route('/index')
 def image():
